@@ -19,6 +19,7 @@ if mods ["IndustrialDisplayPlates"] then
   data.raw["simple-entity-with-owner"]["steel-display"].fast_replaceable_group = "display"
 end
 
+--[[
 if mods ["EditorExtensions"] then
 
   data.raw["accumulator"]["accumulator"].fast_replaceable_group = "accumulator"
@@ -68,3 +69,4 @@ if mods ["EditorExtensions"] then
   --data.raw["fluid-wagon"]["ee-infinity-fluid-wagon"].fast_replaceable_group = "fluid-wagon"
   --data.raw["infinity-pipe"]["ee-infinity-wagon-pipe"].fast_replaceable_group = "fluid-wagon"
 end
+]]

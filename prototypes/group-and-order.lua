@@ -11,3 +11,12 @@ if mods ["GhostScanner"] then
     data.raw.item["ghost-scanner"].order = "c[combinators]-d[ghost-scanner]"
   end
 end
+
+if mods ["Automatic_Train_Painter"] then
+  if mods ["Shuttle_Train_Continued"] then
+    if data.raw.item["manual-color-module"] then
+      data.raw.item["manual-color-module"].subgroup = "equipment"
+      data.raw.item["manual-color-module"].order = "g[train]-a[manual-color-module]"
+    end
+  end
+end
